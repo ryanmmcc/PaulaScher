@@ -1,0 +1,165 @@
+body{
+    background-color: #D9D9D9;
+    padding: 0.25rem;
+
+}
+
+.navigation{
+    font-family: 'kanit', snas-serif;
+    font-style: regular 400;
+    font-size: 20px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+}
+.intro{
+    grid-column: 1;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 10px;
+}
+.pgrph{
+    grid-column: 2;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    font-size: 22px;
+    width: 300px;
+    color: red;
+    position: relative;
+}
+
+.scher1{
+    width: 500px;
+    float: left;
+}
+.scher2{
+    width: 400px;
+}
+.Hand{
+    width: 500px;
+    float: right;
+}
+.himDiva{
+    width: 500px;
+}
+.logos{
+    width: 400px;
+    float: right;
+}
+.public3{
+    width: 700px;
+    float: right;
+}
+
+
+.typeFace{
+    width: 500px;
+    float: right;
+    padding: 1rem;
+}
+h1{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 100px;
+}
+h2{
+    color: blue;
+    font-family: 'kanit', sans-serif;
+    font-size: 47px;
+}
+
+h3{
+    color: red;
+    font-family: 'kanit', sans-serif;
+    font-size: 50px;
+    padding: 1rem;
+    text-align: left;
+}
+
+h4{
+    color: yellow;
+    font-family: 'kanit', sans-serif;
+    font-size: 50px;
+    text-align: right;
+}
+.navigation{
+    background-color: yellow;
+    resize: horizontal;
+    text-align: left;
+    padding: 1rem;
+}
+
+.background-grid{
+    text-align: right;
+    width: 1000px;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    color: black;
+}
+
+.influences-grid{
+    text-align: right;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.prgph2{
+    position: absolute;
+    padding: 1rem;
+    text-align: right;
+    left: 40%;
+    padding: 1rem;
+}
+.prgph3{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    width: 30%;
+    background-color: #D9D9D9;
+    padding: 1rem;
+}
+.prgph4{
+    position: absolute;
+    text-align: right;
+    padding: 1rem;
+    right: 45%;
+    width: 50%;
+}
+.prgph5{
+    text-align: left;
+    padding: 1rem;
+    width: 55%;
+    position: absolute;
+}
+.prgph6{
+    text-align: left;
+    padding: 1rem;
+    width: 35%;
+    position: absolute;
+}
+
+.style-grid{
+    text-align: center;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    color: black;
+}
+
+.pieces-grid{
+    text-align: left;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    color: black;
+}
+
+.achievements-grid{
+    text-align: left;
+    font-family: 'kanit', sans-serif;
+    font-style: Regular 400;
+    color: black;
+}
